@@ -1,0 +1,26 @@
+.header {
+    position: fixed;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    padding: 25px 0px;
+    z-index: 10;
+    transition: 0.4s all ease-in-out;
+    &__logo {
+        display: flex;
+        align-items: center;
+        img {
+            margin-right: 10px;
+        }
+        span {
+            font-size: 24px;
+            line-height: 100%;
+            font-family: $font-bold;
+            color: #fff;
+        }
+    }
+}
+.header-active {
+    padding: 20px 0px;
+    background: #3c312b;
+}
